@@ -1,4 +1,6 @@
 return {
+-- qbx_consumables gère `sandwich`, `tosti`, `twerks_candy`, `snikkel_candy`, `coffee`, `whiskey`, `beer`, `vodka`, `joint`, `cokebaggy`, `crack_baggy`, `xtcbaggy`, `oxy`, `meth`, `lockpick` et `advancedlockpick`.
+
     ['testburger'] = {
         label = 'Test Burger',
         weight = 220,
@@ -79,6 +81,18 @@ return {
             prop = { model = `prop_ld_can_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
             usetime = 2500,
             notification = 'You quenched your thirst with a sprunk'
+        }
+    },
+
+    ['cola'] = {
+        label = 'eCola',
+        weight = 350,
+        client = {
+            status = { thirst = 200000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = `prop_ld_can_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+            usetime = 2500,
+            notification = 'You quenched your thirst with an eCola'
         }
     },
 
@@ -197,7 +211,7 @@ return {
         label = 'Drivers License'
     },
 
-    ['weaponlicense'] = {
+    ['weapon_license'] = {
         label = 'Weapon License'
     },
 
@@ -418,7 +432,7 @@ return {
     },
 
     ['joint'] = {
-        label = 'Joint',
+        label = 'Joint de Mauvaise Qualité',
         weight = 200
     },
 
@@ -620,6 +634,21 @@ return {
     ['sandwich'] = {
         label = 'Sandwich',
         weight = 200
+    },
+
+    ['tosti'] = {
+        label = 'Grilled Cheese Sandwich',
+        weight = 200
+    },
+
+    ['twerks_candy'] = {
+        label = 'Twerks',
+        weight = 100
+    },
+
+    ['snikkel_candy'] = {
+        label = 'Snikkel',
+        weight = 100
     },
 
     ['walking_stick'] = {
