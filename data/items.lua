@@ -2,7 +2,7 @@ return {
 -- qbx_consumables gère `sandwich`, `tosti`, `twerks_candy`, `snikkel_candy`, `coffee`, `whiskey`, `beer`, `vodka`, `joint`, `cokebaggy`, `crack_baggy`, `xtcbaggy`, `oxy`, `meth`, `lockpick` et `advancedlockpick`.
 
     ['testburger'] = {
-        label = 'Test Burger',
+        label = 'Burger test',
         weight = 220,
         degrade = 60,
         client = {
@@ -68,7 +68,7 @@ return {
             anim = 'eating',
             prop = 'burger',
             usetime = 2500,
-            notification = 'You ate a delicious burger'
+            notification = 'Tu as mangé un délicieux burger'
         }
     },
 
@@ -80,7 +80,7 @@ return {
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = `prop_ld_can_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
             usetime = 2500,
-            notification = 'You quenched your thirst with a sprunk'
+            notification = 'Tu t\'es désaltéré avec un Sprunk'
         }
     },
 
@@ -92,7 +92,7 @@ return {
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = `prop_ld_can_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
             usetime = 2500,
-            notification = 'You quenched your thirst with an eCola'
+            notification = 'Tu t\'es désaltéré avec un eCola'
         }
     },
 
@@ -107,11 +107,11 @@ return {
     },
 
     ['garbage'] = {
-        label = 'Garbage'
+        label = 'Déchets'
     },
 
     ['paperbag'] = {
-        label = 'Paper Bag',
+        label = 'Sac en papier',
         weight = 1,
         stack = false,
         close = false,
@@ -119,7 +119,7 @@ return {
     },
 
     ['panties'] = {
-        label = 'Knickers',
+        label = 'Culotte',
         weight = 10,
         consume = 0,
         client = {
@@ -131,12 +131,12 @@ return {
     },
 
     ['lockpick'] = {
-        label = 'Lockpick',
+        label = 'Crochet de serrure',
         weight = 160
     },
 
     ['phone'] = {
-        label = 'Phone',
+        label = 'Téléphone',
         weight = 190,
         stack = false,
         consume = 0,
@@ -156,19 +156,19 @@ return {
     },
 
     ['mustard'] = {
-        label = 'Mustard',
+        label = 'Moutarde',
         weight = 500,
         client = {
             status = { hunger = 25000, thirst = 25000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = `prop_food_mustard`, pos = vec3(0.01, 0.0, -0.07), rot = vec3(1.0, 1.0, -1.5) },
             usetime = 2500,
-            notification = 'You... drank mustard'
+            notification = 'Tu as... bu de la moutarde'
         }
     },
 
     ['water'] = {
-        label = 'Water',
+        label = 'Eau',
         weight = 500,
         client = {
             status = { thirst = 200000 },
@@ -176,12 +176,12 @@ return {
             prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
             usetime = 2500,
             cancel = true,
-            notification = 'You drank some refreshing water'
+            notification = 'Tu as bu une eau rafraîchissante'
         }
     },
 
     ['armour'] = {
-        label = 'Bulletproof Vest',
+        label = 'Gilet pare-balles',
         weight = 3000,
         stack = false,
         client = {
@@ -191,32 +191,32 @@ return {
     },
 
     ['clothing'] = {
-        label = 'Clothing',
+        label = 'Vêtements',
         consume = 0
     },
 
     ['money'] = {
-        label = 'Money'
+        label = 'Argent'
     },
 
     ['black_money'] = {
-        label = 'Dirty Money'
+        label = 'Argent sale'
     },
 
     ['id_card'] = {
-        label = 'Identification Card'
+        label = 'Carte d\'identité'
     },
 
     ['driver_license'] = {
-        label = 'Drivers License'
+        label = 'Permis de conduire'
     },
 
     ['weapon_license'] = {
-        label = 'Weapon License'
+        label = 'Permis de port d\'arme'
     },
 
     ['lawyerpass'] = {
-        label = 'Lawyer Pass'
+        label = 'Carte d\'avocat'
     },
 
     ['radio'] = {
@@ -230,7 +230,7 @@ return {
     },
 
     ['jammer'] = {
-        label = 'Radio Jammer',
+        label = 'Brouilleur radio',
         weight = 10000,
         allowArmed = true,
         client = {
@@ -239,7 +239,7 @@ return {
     },
 
     ['radiocell'] = {
-        label = 'AAA Cells',
+        label = 'Piles AAA',
         weight = 1000,
         stack = true,
         allowArmed = true,
@@ -249,92 +249,92 @@ return {
     },
 
     ['advancedlockpick'] = {
-        label = 'Advanced Lockpick',
+        label = 'Crochet de serrure avancé',
         weight = 500
     },
 
     ['screwdriverset'] = {
-        label = 'Screwdriver Set',
+        label = 'Set de tournevis',
         weight = 500
     },
 
     ['electronickit'] = {
-        label = 'Electronic Kit',
+        label = 'Kit électronique',
         weight = 500
     },
 
     ['cleaningkit'] = {
-        label = 'Cleaning Kit',
+        label = 'Kit de nettoyage',
         weight = 500
     },
 
     ['repairkit'] = {
-        label = 'Repair Kit',
+        label = 'Kit de réparation',
         weight = 2500
     },
 
     ['advancedrepairkit'] = {
-        label = 'Advanced Repair Kit',
+        label = 'Kit de réparation avancé',
         weight = 4000
     },
 
     ['diamond'] = {
-        label = 'Diamond',
+        label = 'Diamant',
         weight = 1500
     },
 
     ['diamond_ring'] = {
-        label = 'Diamond Ring',
+        label = 'Bague en diamant',
         weight = 1500
     },
 
     ['rolex'] = {
-        label = 'Golden Watch',
+        label = 'Montre en or',
         weight = 1500
     },
 
     ['goldbar'] = {
-        label = 'Gold Bar',
+        label = 'Lingot d\'or',
         weight = 1500
     },
 
     ['goldchain'] = {
-        label = 'Golden Chain',
+        label = 'Chaîne en or',
         weight = 1500
     },
 
     ['10kgoldchain'] = {
-        label = '10k Gold Chain',
+        label = 'Chaîne en or 10 carats',
         weight = 1500
     },
 
     ['crack_baggy'] = {
-        label = 'Crack Baggy',
+        label = 'Sachet de crack',
         weight = 100
     },
 
     ['cokebaggy'] = {
-        label = 'Bag of Coke',
+        label = 'Sachet de cocaïne',
         weight = 100
     },
 
     ['coke_brick'] = {
-        label = 'Coke Brick',
+        label = 'Brique de cocaïne',
         weight = 2000
     },
 
     ['coke_small_brick'] = {
-        label = 'Coke Package',
+        label = 'Paquet de cocaïne',
         weight = 1000
     },
 
     ['xtcbaggy'] = {
-        label = 'Bag of Ecstasy',
+        label = 'Sachet d\'ecstasy',
         weight = 100
     },
 
     ['meth'] = {
-        label = 'Methamphetamine',
+        label = 'Méthamphétamine',
         weight = 100
     },
 
@@ -352,7 +352,7 @@ return {
     },
 
     ['weed_ak47_seed'] = {
-        label = 'AK47 Seed',
+        label = 'Graine d\'AK47',
         weight = 1
     },
 
@@ -365,7 +365,7 @@ return {
     },
 
     ['weed_skunk_seed'] = {
-        label = 'Skunk Seed',
+        label = 'Graine de Skunk',
         weight = 1
     },
 
@@ -378,12 +378,12 @@ return {
     },
 
     ['weed_amnesia_seed'] = {
-        label = 'Amnesia Seed',
+        label = 'Graine d\'Amnesia',
         weight = 1
     },
 
     ['weed_og-kush'] = {
-        label = 'OGKush 2g',
+        label = 'OG Kush 2g',
         weight = 200,
         client = {
             image = 'weed_baggy.png'
@@ -391,12 +391,12 @@ return {
     },
 
     ['weed_og-kush_seed'] = {
-        label = 'OGKush Seed',
+        label = 'Graine d\'OG Kush',
         weight = 1
     },
 
     ['weed_white-widow'] = {
-        label = 'OGKush 2g',
+        label = 'White Widow 2g',
         weight = 200,
         client = {
             image = 'weed_baggy.png'
@@ -404,7 +404,7 @@ return {
     },
 
     ['weed_white-widow_seed'] = {
-        label = 'White Widow Seed',
+        label = 'Graine de White Widow',
         weight = 1
     },
 
@@ -417,17 +417,17 @@ return {
     },
 
     ['weed_purple-haze_seed'] = {
-        label = 'Purple Haze Seed',
+        label = 'Graine de Purple Haze',
         weight = 1
     },
 
     ['weed_brick'] = {
-        label = 'Weed Brick',
+        label = 'Brique de cannabis',
         weight = 2000
     },
 
     ['weed_nutrition'] = {
-        label = 'Plant Fertilizer',
+        label = 'Engrais pour plantes',
         weight = 2000
     },
 
@@ -437,27 +437,27 @@ return {
     },
 
     ['rolling_paper'] = {
-        label = 'Rolling Paper',
+        label = 'Feuilles à rouler',
         weight = 0
     },
 
     ['empty_weed_bag'] = {
-        label = 'Empty Weed Bag',
+        label = 'Sachet de cannabis vide',
         weight = 0
     },
 
     ['firstaid'] = {
-        label = 'First Aid',
+        label = 'Trousse de premiers secours',
         weight = 2500
     },
 
     ['ifaks'] = {
-        label = 'Individual First Aid Kit',
+        label = 'Trousse de secours individuelle',
         weight = 2500
     },
 
     ['painkillers'] = {
-        label = 'Painkillers',
+        label = 'Antidouleurs',
         weight = 400
     },
 
@@ -482,27 +482,27 @@ return {
     },
 
     ['steel'] = {
-        label = 'Steel',
+        label = 'Acier',
         weight = 100
     },
 
     ['rubber'] = {
-        label = 'Rubber',
+        label = 'Caoutchouc',
         weight = 100
     },
 
     ['metalscrap'] = {
-        label = 'Metal Scrap',
+        label = 'Ferraille',
         weight = 100
     },
 
     ['iron'] = {
-        label = 'Iron',
+        label = 'Fer',
         weight = 100
     },
 
     ['copper'] = {
-        label = 'Copper',
+        label = 'Cuivre',
         weight = 100
     },
 
@@ -512,12 +512,12 @@ return {
     },
 
     ['plastic'] = {
-        label = 'Plastic',
+        label = 'Plastique',
         weight = 100
     },
 
     ['glass'] = {
-        label = 'Glass',
+        label = 'Verre',
         weight = 100
     },
 
@@ -527,37 +527,37 @@ return {
     },
 
     ['cryptostick'] = {
-        label = 'Crypto Stick',
+        label = 'Clé crypto',
         weight = 100
     },
 
     ['trojan_usb'] = {
-        label = 'Trojan USB',
+        label = 'Clé USB Trojan',
         weight = 100
     },
 
     ['toaster'] = {
-        label = 'Toaster',
+        label = 'Grille-pain',
         weight = 5000
     },
 
     ['small_tv'] = {
-        label = 'Small TV',
+        label = 'Petite télé',
         weight = 100
     },
 
     ['security_card_01'] = {
-        label = 'Security Card A',
+        label = 'Carte de sécurité A',
         weight = 100
     },
 
     ['security_card_02'] = {
-        label = 'Security Card B',
+        label = 'Carte de sécurité B',
         weight = 100
     },
 
     ['drill'] = {
-        label = 'Drill',
+        label = 'Perceuse',
         weight = 5000
     },
 
@@ -567,12 +567,12 @@ return {
     },
 
     ['diving_gear'] = {
-        label = 'Diving Gear',
+        label = 'Équipement de plongée',
         weight = 30000
     },
 
     ['diving_fill'] = {
-        label = 'Diving Tube',
+        label = 'Bouteille de plongée',
         weight = 3000
     },
 
@@ -587,32 +587,32 @@ return {
     },
 
     ['jerry_can'] = {
-        label = 'Jerrycan',
+        label = 'Jerrican',
         weight = 3000
     },
 
     ['nitrous'] = {
-        label = 'Nitrous',
+        label = 'Nitro',
         weight = 1000
     },
 
     ['wine'] = {
-        label = 'Wine',
+        label = 'Vin',
         weight = 500
     },
 
     ['grape'] = {
-        label = 'Grape',
+        label = 'Raisin',
         weight = 10
     },
 
     ['grapejuice'] = {
-        label = 'Grape Juice',
+        label = 'Jus de raisin',
         weight = 200
     },
 
     ['coffee'] = {
-        label = 'Coffee',
+        label = 'Café',
         weight = 200
     },
 
@@ -622,12 +622,12 @@ return {
     },
 
     ['whiskey'] = {
-        label = 'Whiskey',
+        label = 'Whisky',
         weight = 200
     },
 
     ['beer'] = {
-        label = 'Beer',
+        label = 'Bière',
         weight = 200
     },
 
@@ -637,7 +637,7 @@ return {
     },
 
     ['tosti'] = {
-        label = 'Grilled Cheese Sandwich',
+        label = 'Croque-monsieur',
         weight = 200
     },
 
@@ -652,42 +652,42 @@ return {
     },
 
     ['walking_stick'] = {
-        label = 'Walking Stick',
+        label = 'Canne',
         weight = 1000
     },
 
     ['lighter'] = {
-        label = 'Lighter',
+        label = 'Briquet',
         weight = 200
     },
 
     ['binoculars'] = {
-        label = 'Binoculars',
+        label = 'Jumelles',
         weight = 800
     },
 
     ['stickynote'] = {
-        label = 'Sticky Note',
+        label = 'Post-it',
         weight = 0
     },
 
     ['empty_evidence_bag'] = {
-        label = 'Empty Evidence Bag',
+        label = 'Sachet de preuve vide',
         weight = 200
     },
 
     ['filled_evidence_bag'] = {
-        label = 'Filled Evidence Bag',
+        label = 'Sachet de preuve rempli',
         weight = 200
     },
 
     ['harness'] = {
-        label = 'Harness',
+        label = 'Harnais',
         weight = 200
     },
 
     ['handcuffs'] = {
-        label = 'Handcuffs',
+        label = 'Menottes',
         weight = 200
     },
 
